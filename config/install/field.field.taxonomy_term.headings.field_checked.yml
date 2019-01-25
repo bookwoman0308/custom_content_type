@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_checked
+    - taxonomy.vocabulary.headings
+id: taxonomy_term.headings.field_checked
+field_name: field_checked
+entity_type: taxonomy_term
+bundle: headings
+label: Checked
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Checked
+  off_label: 'Off'
+field_type: boolean
